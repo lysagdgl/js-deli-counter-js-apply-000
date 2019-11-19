@@ -7,6 +7,8 @@ function takeANumber(line, name){
 var katzDeliline = []
 takeANumber(katzDeliline, Ada)
 
+
+
 katzDeliline=["Steven", "Blake", "Avi"]
 takeANumber(katzDeliline, Grace)
 
@@ -36,3 +38,17 @@ function currentLine(line){
 
 line = ["Bill", "Jane", "Ann"]
 currentline(line)
+
+function takeaNumber(line, num){
+  var i = 1
+  i = i+1
+  line.push(i)
+  welcome = "Welcome! Your number is "+num
+  return welcome
+  
+}
+function takeaNumber2(line,name){
+  line.push(name)
+  var welcome
+  welcome = "Welcome! Your number is " + (line.length)
+}
